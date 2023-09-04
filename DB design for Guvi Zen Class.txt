@@ -32,6 +32,7 @@ DATABASE SCHEMA:
    -USER_ID(FOREIGN KEY TO USERS)
    -EMAIL(FOREIGN KEY TO USERS)
    -PHONE
+   -BATCH
    -ATTENDANCE
    -FEEDBACK
    -ASSESMENTS
@@ -102,9 +103,10 @@ DATABASE SCHEMA:
     -STUDENT-ID(FOREIGN KEY TO STUDENTS)
     -RANK
     -STUDENT NAME
-    -BATCH
+    -BATCH(FOREIGN KEY TO STUDENTS)
     -LEARNING
 
 
     => This is a basic structure that allows us to manage
-       users,classes,students,assignments,submissions,dashboard,task,query,leave application,mock interview and leaderboard tables.
+       users,classes,students,assignments,submissions,dashboard,task,query,
+       leave application,mock interview and leaderboard tables.
